@@ -17,16 +17,17 @@ body {
 .page-title {
   color: #ffffff;
   margin: 0 0 5px;
-  font-size: 30px;
+  font-size: 45px;
 }
 
 .page-subtitle {
   color: #ffffff;
-  margin-top: 16px;
+  margin-top: 25px;
+  font-size: 20px;
 }
 
 .page-logo {
-  width: 200px;
+  width: 270px;
 }
 
 .alura-logo {
@@ -52,6 +53,7 @@ button {
   margin-top: 12px;
   padding: 4px 8px;
   border-radius: 10px;
+  font-size: 20px;
 }
 
 .resultado1 {
@@ -68,5 +70,5 @@ button {
 
 h1 {
   color: #ffffff;
-  font-size: 15px;
+  font-size: 25px;
 }
