@@ -4,7 +4,7 @@ var chance = 1;
 function Iniciar() {
   chance = 1;
   var elmentoChances = document.getElementById("chances");
-  elmentoChances.innerHTML = "(4 chances)";
+  elmentoChances.innerHTML = "(3 chances)";
   var elementoResultado = document.getElementById("resultado1");
   elementoResultado.innerHTML = " ";
   elementoResultado = document.getElementById("resultado2");
@@ -42,7 +42,7 @@ function Chutar() {
       if (chance == 2) {
         elementoResultado.innerHTML =
           "<img src='https://campanhas.eurofarma.com.br/pneumo/public/images/ico-errou.png'>";
-        elmentoChances.innerHTML = "(3 chances)";
+        elmentoChances.innerHTML = "(2 chances)";
         if (chute < numeroSecr) {
           elementoResultado = document.getElementById("resultado2");
           elementoResultado.innerHTML = "O número correto é maior que " + chute;
@@ -54,7 +54,7 @@ function Chutar() {
       else if (chance == 3) {
         elementoResultado.innerHTML =
           "<img src='https://campanhas.eurofarma.com.br/pneumo/public/images/ico-errou.png'>";
-        elmentoChances.innerHTML = "(2 chances)";
+        elmentoChances.innerHTML = "(ultima chance)";
         if (chute < numeroSecr) {
           elementoResultado = document.getElementById("resultado2");
           elementoResultado.innerHTML = "O número correto é maior que " + chute;
@@ -63,7 +63,7 @@ function Chutar() {
           elementoResultado.innerHTML = "O número correto é menor que " + chute;
         }
       } ///////////////
-      else if (chance == 4) {
+      /*else if (chance == 4) {
         elementoResultado.innerHTML =
           "<img src='https://campanhas.eurofarma.com.br/pneumo/public/images/ico-errou.png'>";
         elmentoChances.innerHTML = "(ultima chance)";
@@ -74,9 +74,9 @@ function Chutar() {
           elementoResultado = document.getElementById("resultado2");
           elementoResultado.innerHTML = "O número correto é menor que " + chute;
         }
-      }
+      }*/
     } ///////////////////
-    if (chance == 5) {
+    if (chance == 4) {
       elementoResultado.innerHTML =
         "Suas chances acabaram, inicie o jogo novamente!";
       elementoResultado = document.getElementById("resultado2");
