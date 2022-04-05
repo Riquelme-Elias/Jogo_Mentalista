@@ -31,7 +31,7 @@ function Chutar() {
   } else {
     if (chute == numeroSecr) {
       elementoResultado.innerHTML =
-        "<img src='https://acertou.com.br/assets/images/logo.png'>";
+        "<img src='https://acertou.com.br/assets/images/logo.png' height='100' width='190'>";
       elementoResultado = document.getElementById("resultado2");
       elementoResultado.innerHTML = " ";
       document.getElementById("iniciarJogo").disabled = false;
@@ -41,7 +41,7 @@ function Chutar() {
       chance++;
       if (chance == 2) {
         elementoResultado.innerHTML =
-          "<img src='https://campanhas.eurofarma.com.br/pneumo/public/images/ico-errou.png'>";
+          "<img src='https://campanhas.eurofarma.com.br/pneumo/public/images/ico-errou.png' height='100' width='90'>";
         elmentoChances.innerHTML = "(2 chances)";
         if (chute < numeroSecr) {
           elementoResultado = document.getElementById("resultado2");
@@ -53,7 +53,7 @@ function Chutar() {
       } //////////////////////////////////////
       else if (chance == 3) {
         elementoResultado.innerHTML =
-          "<img src='https://campanhas.eurofarma.com.br/pneumo/public/images/ico-errou.png'>";
+          "<img src='https://campanhas.eurofarma.com.br/pneumo/public/images/ico-errou.png' height='100' width='90'>";
         elmentoChances.innerHTML = "(ultima chance)";
         if (chute < numeroSecr) {
           elementoResultado = document.getElementById("resultado2");
